@@ -36,6 +36,6 @@ func (x *DateTime)SetTime(timestring string){
     if err!=nil{
         fmt.Println(err)
     }
-    fmt.Println("t:",t)
+  //  fmt.Println("t:",t)
     x.Time=t
 }

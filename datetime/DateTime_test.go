@@ -1,7 +1,7 @@
 package datetime
 
 import (
-	"fmt"
+	//"fmt"
 	"testing"
 )
 
@@ -46,18 +46,3 @@ func TestSetTime(t *testing.T) {
 	}
 }
 
-//func TestAdd(t *testing.T) {
-//    if (Add(1, 2) != 3) {
-//        t.Error("test foo:Addr failed")
-//    } else {
-//        t.Log("test foo:Addr pass")
-//    }
-//}
-
-//func TestAdd(t *testing.T){
-//    if (Add(1,3)!=5){
-//        t.Error("!=5")
-//    }else{
-//        t.Log("addr pass")
-//    }
-//}
