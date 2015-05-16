@@ -13,6 +13,8 @@ type DateTime struct {
     Time time.Time
 }
 
+
+
 //输入年月日得到日期
 func NewDate(year,month,day int)DateTime{
     t:=time.Date(year,time.Month(month),day,0,0,0,0,time.UTC)
